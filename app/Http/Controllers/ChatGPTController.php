@@ -28,6 +28,8 @@ class ChatGPTController extends Controller
 // }
 public function index()
 {
+    \Log::info('ENTRO A CHAT-GPT');
+   
     return response()->json(['ok' => true]);
 }
 }
